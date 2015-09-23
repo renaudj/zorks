@@ -18,7 +18,7 @@ public class ZorkServer {
   
   public void start(){
     try {
-        serverSocket = new ServerSocket(5000);
+        serverSocket = new ServerSocket(3000);
       running = true;
       	while(running){
            Socket socket = serverSocket.accept();
